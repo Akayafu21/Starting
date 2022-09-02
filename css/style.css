@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Kanit;
+  src: url(../font/Kanit-Regular.woff);
+}
+
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: Kanit;
+  box-sizing: border-box;
+}
+.s {
+  box-shadow: 0 0 20px #ccc;
+}
+
+.debug {
+  border: 2px solid red;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  max-width: 960px;
+  height: 100px;
+  display: flex;
+}
+
+.normalnavbar {
+  max-width: 960px;
+  padding: 8px;
+  height: 100px;
+  margin: 15px 20px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.textnav {
+  padding: 0 12px;
+}
+
+.footer {
+  margin-top: 10px;
+  height: 70px;
+  display: flex;
+}
+
+.logo {
+  padding: 8px;
+  width: 60%;
+}
+
+.hello {
+  padding: 8px;
+  width: 100%;
+}
+
+.twper {
+  width: 20%;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+.other {
+  padding-left: 10px;
+  margin: 0;
+}
+
+#keep {
+  background-color: sandybrown;
+  border-radius: 20px;
+}
+
+#send {
+  background-color: tomato;
+  border-radius: 20px;
+}
+#wait {
+  background-color: rgb(255, 219, 101);
+  border-radius: 20px;
+}
